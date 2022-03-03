@@ -1,4 +1,4 @@
-<?php include_once 'functions/session.php'; ?>
+<?php include_once '../functions/session.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,12 +8,12 @@
     <title>Vrtiljak</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <link rel="shortcut icon" href="image/icons/favico.png" type="image/png">
+    <link rel="shortcut icon" href="../image/icons/favico.png" type="image/png">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
@@ -24,7 +24,7 @@
 
       <div class="header-1">
 
-          <a href="index.php" class="logo"> <i class="fas fa-book"></i> Vrtiljak </a>
+          <a href="../" class="logo"> <i class="fas fa-book"></i> Vrtiljak </a>
 
           <form action="" class="search-form">
               <input type="search" name="" placeholder="search here..." id="search-box">

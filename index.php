@@ -3,6 +3,8 @@ include('main/header.php');
 include('main/navbar.php');
 include('main/login_form.php');
 include('main/register_form.php');
+
+
 ?>
 
 
@@ -13,9 +15,9 @@ include('main/register_form.php');
     <div class="row">
 
         <div class="content">
-            <h3><i>Knjižnica enote <span style="color:#0091ff;">Vrtiljak</span></i></h3>
+            <h3><i>Knjižnica enote <span style="color:#0091ff;">Vrtiljak</span></i> </h3>
             <p>pregled izposojenega gradiva, podaljšanje roka izposoje, preklic rezervacij, Moja polica, zgodovina izposoj, e-obveščanje ...</p>
-            <a href="#" class="btn">IŠČI</a>
+            <a href="#" class="btn" style="padding-left:45px; padding-right:45px;">IŠČI</a>
         </div>
 
         <div class="swiper books-slider">
@@ -50,7 +52,7 @@ include('main/register_form.php');
 
             <div class="swiper-slide box">
                 <div class="icons">
-                  
+
                     <a href="#" class="fas fa-heart"></a>
                     <a href="#" class="fas fa-eye"></a>
                 </div>
